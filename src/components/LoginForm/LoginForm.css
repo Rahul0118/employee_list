@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+
+
+.Login-form-wrapper{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+.login-form{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.login-form h3{
+	font-size: 38px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	letter-spacing: 0.6px;
+	margin-bottom: 45px;
+}
+
+.login-form .form-label{
+	font-size: 18px;
+	color: #000;
+	font-weight: 500;	
+	font-family: 'Roboto', sans-serif;
+}
+
+.login-form .form-control{
+	border: 0;
+	border-bottom: 1px solid #dadada;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 0;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 30px;
+}
+
+.login-form .form-control:focus{
+	border-color: #dd3333;
+}
+
+.login-form .sbt-btn{
+	font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    height: 50px;
+    padding: 0 30px;
+    background-color: #dd3333;
+    border: 2px solid #dd3333;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.login-form .sbt-btn:hover{
+	background-color: transparent;
+	border-color: #dd3333;
+	color: #dd3333;
+}
+
+.pending, .error, .success{
+	font-size: 15px;
+	color: #f00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.error{
+	font-weight: 700;
+}
+
+.success{
+	color: #000;
+}
